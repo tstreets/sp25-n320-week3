@@ -1,6 +1,6 @@
 {
   "name": "create-tstreets-test-app",
-  "version": "1.1.1",
+  "version": "1.1.2",
   "main": "index.js",
   "bin": {
     "create-tstreets": "index.js"

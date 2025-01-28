@@ -48,7 +48,7 @@ function createProjectSetup() {
           fs.writeFileSync(path.join(rootDirPath, "index.js"), "");
 
           const gitIgnoreContent = fs.readFileSync(
-            path.join(__dirname, "templates/.gitignore")
+            path.join(__dirname, "templates/gitignore.txt")
           );
           console.log("Creating .gitignore file");
           fs.writeFileSync(
