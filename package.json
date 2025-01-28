@@ -1,6 +1,6 @@
 {
   "name": "create-tstreets-test-app",
-  "version": "1.1.2",
+  "version": "1.2.0",
   "main": "index.js",
   "bin": {
     "create-tstreets": "index.js"
@@ -9,6 +9,12 @@
     "start": "node index.js",
     "test": "TEST=1 node index.js"
   },
+  "files": [
+    "templates",
+    "README.md",
+    "LICENSE",
+    "index.js"
+  ],
   "keywords": [],
   "author": "",
   "license": "ISC",
