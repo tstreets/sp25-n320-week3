@@ -2,6 +2,9 @@
   "name": "create-tstreets-test-app",
   "version": "1.0.0",
   "main": "index.js",
+  "bin": {
+    "create-tstreets": "index.js"
+  },
   "scripts": {
     "start": "node index.js",
     "test": "TEST=1 node index.js"
